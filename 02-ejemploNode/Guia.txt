@@ -1,6 +1,43 @@
 Crear un proyecto desde cero: 
     npm init
     npm init --yes
-    
+
 Instalar un paquete:
     npm install express --save
+
+Editar el archivo package.json
+    {
+    "name": "02-ejemplonode",
+    "version": "1.0.0",
+    "description": "ejemplo paquetes",
+    "main": "index.js",
+    "scripts": {
+        // Agregar el start...
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Waira Sofia Ocampo Orozco",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+    }
+
+Poner express js hellow word en google y copiar el texto en el app.js 
+    express = require('express');
+    var app = express();
+
+    app.get('/', function (req, res) {
+    res.send('Hello World!');
+    });
+
+    app.listen(3000, function () {
+    console.log('Example app listening on port 3000!');
+    });
+
+Para inicializar el proyecto
+    npm start
+
+Instalar React
+    npm install -g expo-cli
+
