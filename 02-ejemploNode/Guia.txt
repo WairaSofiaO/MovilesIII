@@ -1,0 +1,6 @@
+Crear un proyecto desde cero: 
+    npm init
+    npm init --yes
+    
+Instalar un paquete:
+    npm install express --save
