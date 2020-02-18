@@ -1,4 +1,4 @@
-Crear un proyecto desde cero: 
+Crear un proyecto de NODE.js desde cero: 
     npm init
     npm init --yes
 
@@ -44,6 +44,13 @@ Para inicializar el proyecto (el puerto)
 Instalar React
     npm install -g expo-cli
 
-
+Para crear un proyecto predeterminado de REACT
     expo init  components
+
+ejecutar el proyecto predeterminado
+    expo start 
+    Se abrira una pagina web
+    Abrir Nox player o en el celular con la app expo
+    en la web de react click en Run on Android device/emulator
+
 
