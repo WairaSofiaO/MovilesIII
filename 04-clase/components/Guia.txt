@@ -1,0 +1,56 @@
+Crear un proyecto de NODE.js desde cero: 
+    npm init
+    npm init --yes
+
+Instalar un paquete:
+    npm install express --save
+
+Editar el archivo package.json
+    {
+    "name": "02-ejemplonode",
+    "version": "1.0.0",
+    "description": "ejemplo paquetes",
+    "main": "index.js",
+    "scripts": {
+        // Agregar el start...
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Waira Sofia Ocampo Orozco",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+    }
+
+Poner express js hellow word en google y copiar el texto en el app.js 
+    express = require('express');
+    var app = express();
+
+    app.get('/', function (req, res) {
+    res.send('Hello World!');
+    });
+
+    app.listen(3000, function () {
+    console.log('Example app listening on port 3000!');
+    });
+
+Instalar las dependencias si un proyecto no tiene el node_modules
+    npm install
+
+Para inicializar el proyecto (el puerto)
+    npm start
+
+Instalar React
+    npm install -g expo-cli
+
+Para crear un proyecto predeterminado de REACT
+    expo init  components
+
+ejecutar el proyecto predeterminado
+    expo start 
+    Se abrira una pagina web
+    Abrir Nox player o en el celular con la app expo
+    en la web de react click en Run on Android device/emulator
+
+
