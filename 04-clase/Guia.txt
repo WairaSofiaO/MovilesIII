@@ -53,4 +53,5 @@ ejecutar el proyecto predeterminado
     Abrir Nox player o en el celular con la app expo
     en la web de react click en Run on Android device/emulator
 
+Buscar stastes en React native
 
